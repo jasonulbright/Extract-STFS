@@ -1,0 +1,14 @@
+# Extracted output
+*.xen
+*.pak
+*.fsb
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDE
+.vs/
+.vscode/
+*.suo
+*.user
