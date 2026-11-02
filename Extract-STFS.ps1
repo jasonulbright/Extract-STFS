@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Extracts files from Xbox 360 STFS (LIVE/PIRS/CON) containers.
 .DESCRIPTION
@@ -134,7 +134,7 @@ try {
 
     # Read volume descriptor at 0x379
     $reader.BaseStream.Position = 0x379
-    $volDescSize = $reader.ReadByte()
+    $null = $reader.ReadByte()  # volume descriptor size
     $null = $reader.ReadByte()  # reserved
     $blockSeperation = $reader.ReadByte()
 
