@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Extracts files from Xbox 360 STFS (LIVE/PIRS/CON) containers.
 .DESCRIPTION
